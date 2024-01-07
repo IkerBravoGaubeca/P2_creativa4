@@ -10,7 +10,7 @@ metadata:
     service: reviews
 spec:
   ports:
-  - port: 8080
+  - port: 9080
     name: http
   selector:
     app: reviews
