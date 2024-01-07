@@ -39,7 +39,7 @@ spec:
         image: ikerb/P2_creativa:details #de donde saco la imagen de docker hub
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 8080
+        - containerPort: 9080
         securityContext:
           runAsUser: 1000
 ---
