@@ -10,7 +10,7 @@ metadata:
     service: productpage
 spec:
   ports:
-  - port: 9080
+  - port: 8080
     name: http
   selector:
     app: productpage
@@ -37,7 +37,7 @@ spec:
     spec:
       containers:
       - name: productpage #cada microservicio en un pod y cada pod en un contenedor diferente
-        image: ikern/Practica_creativa2:productpage
+        image: ikern/P2_creativa:productpage
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
