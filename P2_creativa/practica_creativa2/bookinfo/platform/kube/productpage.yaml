@@ -37,10 +37,10 @@ spec:
     spec:
       containers:
       - name: productpage #cada microservicio en un pod y cada pod en un contenedor diferente
-        image: angelfergen/practicacreativa:productpage
+        image: ikern/Practica_creativa2:productpage
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 9080
+        - containerPort: 8080
         securityContext:
           runAsUser: 1000
 ---
