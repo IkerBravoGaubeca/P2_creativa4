@@ -10,7 +10,7 @@ metadata:
     service: ratings
 spec:
   ports:
-  - port: 8080
+  - port: 9080
     name: http
   selector:
     app: ratings
@@ -39,7 +39,7 @@ spec:
         image: ikerb/P2_creativa/ratings
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 8080
+        - containerPort: 9080
         securityContext:
           runAsUser: 1000
 ---
