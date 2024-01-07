@@ -37,7 +37,7 @@ spec:
     spec:
       containers:
       - name: productpage #cada microservicio en un pod y cada pod en un contenedor diferente
-        image: ikern/P2_creativa:productpage
+        image: ikerb/P2_creativa:productpage
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
